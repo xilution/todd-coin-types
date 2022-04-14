@@ -17,3 +17,7 @@ These are Todd Coin Typescript Types.
 Hot rebuild when `src` changes
 
 `npm run watch`
+
+## To Release
+
+`npm run release`
