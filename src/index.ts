@@ -9,6 +9,16 @@ export enum Roles {
   NODE = "NODE",
 }
 
+export interface Organization {
+  id?: string;
+  createdAt?: string;
+  updatedAt?: string;
+  name: string;
+  phone?: string;
+  url?: string;
+  participants?: Participant[];
+}
+
 export interface Participant {
   id?: string;
   createdAt?: string;
@@ -19,6 +29,7 @@ export interface Participant {
   phone?: string;
   key: ParticipantKey;
   roles?: Roles[];
+  organizations?: Organization[];
 }
 
 export interface Transaction {
