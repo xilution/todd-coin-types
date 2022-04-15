@@ -12,7 +12,8 @@
     "format": "prettier --write .",
     "watch": "nodemon --watch src -e ts --exec \"npm run build\"",
     "verify": "prettier --check . && eslint . --ext .js,.ts",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
