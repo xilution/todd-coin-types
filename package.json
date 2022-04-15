@@ -10,7 +10,6 @@
     "build": "tsc",
     "clean": "rm -rf ./dist",
     "format": "prettier --write .",
-    "start": "node ./dist/index.js",
     "watch": "nodemon --watch src -e ts --exec \"npm run build\"",
     "verify": "prettier --check . && eslint . --ext .js,.jsx,.ts,.tsx",
     "semantic-release": "semantic-release"
