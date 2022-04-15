@@ -29,6 +29,7 @@
   ],
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
