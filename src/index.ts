@@ -8,6 +8,7 @@ export enum Roles {
   CHARITY = "CHARITY",
   NODE = "NODE",
   ORG_ADMIN = "ORG_ADMIN",
+  FOO = "FOO",
 }
 
 export interface Organization {
