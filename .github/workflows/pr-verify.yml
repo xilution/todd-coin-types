@@ -23,5 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm ci
-      - run: npm run verify
+      - name: Download Dependencies
+        run: npm ci
+      - name: Verify
+        run: npm run verify
