@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/xilution/todd-coin-types/compare/v1.2.0...v1.2.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* removed unnecessary role ([f1c7a6d](https://github.com/xilution/todd-coin-types/commit/f1c7a6dc95a44cc676cb2ec9015107180127f7d1))
+
 # [1.2.0](https://github.com/xilution/todd-coin-types/compare/v1.1.0...v1.2.0) (2022-04-17)
 
 
