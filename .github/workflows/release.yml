@@ -7,7 +7,7 @@ on:
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-  GIT_CREDENTIALS: ${{ secrets.GIT_CREDENTIALS }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.14.2]
+        node-version: [ 16.14.2 ]
 
     steps:
       - uses: actions/checkout@v3
