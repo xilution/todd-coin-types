@@ -46,6 +46,7 @@ export interface Transaction {
 
 export interface Block {
   id?: string;
+  sequenceId: number;
   createdAt?: string;
   updatedAt?: string;
   transactions: Transaction[];
