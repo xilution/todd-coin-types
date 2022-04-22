@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/xilution/todd-coin-types/compare/v1.2.1...v1.3.0) (2022-04-22)
+
+
+### Features
+
+* added sequenceId to block ([18d3001](https://github.com/xilution/todd-coin-types/commit/18d30018488bb96465435c76f76d6c158d20536a))
+
 ## [1.2.1](https://github.com/xilution/todd-coin-types/compare/v1.2.0...v1.2.1) (2022-04-17)
 
 
