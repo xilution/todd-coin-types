@@ -1,6 +1,6 @@
 {
   "name": "@xilution/todd-coin-types",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "The Todd Coin Cryptocurrency Types",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

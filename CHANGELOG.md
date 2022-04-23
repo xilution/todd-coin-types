@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/xilution/todd-coin-types/compare/v2.0.3...v2.0.4) (2022-04-23)
+
+
+### Bug Fixes
+
+* fixed name of TransactionDetails ([b938bdc](https://github.com/xilution/todd-coin-types/commit/b938bdcff9becd60d9d2fd218a6b1938b80cb4b1))
+
 ## [2.0.3](https://github.com/xilution/todd-coin-types/compare/v2.0.2...v2.0.3) (2022-04-23)
 
 
