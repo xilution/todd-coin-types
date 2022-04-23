@@ -76,7 +76,9 @@ export interface TreasureTransactionDetails {
   metaData?: MetaData;
 }
 
-type TransactionsDetails = TimeTransactionDetails | TreasureTransactionDetails;
+export type TransactionsDetails =
+  | TimeTransactionDetails
+  | TreasureTransactionDetails;
 
 export interface PendingTransaction<T extends TransactionsDetails> {
   id?: string;
