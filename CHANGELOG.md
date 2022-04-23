@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/xilution/todd-coin-types/compare/v1.3.0...v2.0.0) (2022-04-23)
+
+
+### Features
+
+* improved transaction model and added participant password ([0593637](https://github.com/xilution/todd-coin-types/commit/0593637a448c899431bbea7e2a1b24c026d0c3fe))
+
+
+### BREAKING CHANGES
+
+* changed transaction amount to goodPoints
+
 # [1.3.0](https://github.com/xilution/todd-coin-types/compare/v1.2.1...v1.3.0) (2022-04-22)
 
 
