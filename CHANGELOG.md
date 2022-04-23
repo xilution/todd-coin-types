@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/xilution/todd-coin-types/compare/v2.0.1...v2.0.2) (2022-04-23)
+
+
+### Bug Fixes
+
+* made the signed transaction signature optional ([f8b9984](https://github.com/xilution/todd-coin-types/commit/f8b99847013aff343184854b841ca25f558a9123))
+
 ## [2.0.1](https://github.com/xilution/todd-coin-types/compare/v2.0.0...v2.0.1) (2022-04-23)
 
 
