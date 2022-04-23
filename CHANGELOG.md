@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/xilution/todd-coin-types/compare/v2.0.2...v2.0.3) (2022-04-23)
+
+
+### Bug Fixes
+
+* exported TransactionDetails ([ec3aab1](https://github.com/xilution/todd-coin-types/commit/ec3aab1955b2214c872fcc0dca70932fca7e2b75))
+
 ## [2.0.2](https://github.com/xilution/todd-coin-types/compare/v2.0.1...v2.0.2) (2022-04-23)
 
 
