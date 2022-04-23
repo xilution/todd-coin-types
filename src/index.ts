@@ -17,6 +17,9 @@ export interface DateRange {
 }
 
 export interface ParticipantKey {
+  id?: string;
+  createdAt?: string;
+  updatedAt?: string;
   public: string;
   private?: string;
   effective: DateRange;
