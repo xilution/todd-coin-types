@@ -76,11 +76,11 @@ export interface TreasureTransactionDetails {
   metaData?: MetaData;
 }
 
-export type TransactionsDetails =
+export type TransactionDetails =
   | TimeTransactionDetails
   | TreasureTransactionDetails;
 
-export interface PendingTransaction<T extends TransactionsDetails> {
+export interface PendingTransaction<T extends TransactionDetails> {
   id?: string;
   createdAt?: string;
   updatedAt?: string;
@@ -93,13 +93,13 @@ export interface PendingTransaction<T extends TransactionsDetails> {
   description: string;
 }
 
-export interface SignedTransaction<T extends TransactionsDetails>
+export interface SignedTransaction<T extends TransactionDetails>
   extends PendingTransaction<T> {
   goodPoints: number;
   signature?: string;
 }
 
-export type BlockTransaction<T extends TransactionsDetails> =
+export type BlockTransaction<T extends TransactionDetails> =
   SignedTransaction<T>;
 
 export interface Block {
@@ -107,7 +107,7 @@ export interface Block {
   sequenceId: number;
   createdAt?: string;
   updatedAt?: string;
-  transactions: BlockTransaction<TransactionsDetails>[];
+  transactions: BlockTransaction<TransactionDetails>[];
   nonce: number;
   previousHash: string;
   hash: string;
