@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/xilution/todd-coin-types/compare/v2.0.0...v2.0.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* exported BlockTransaction ([285d8b2](https://github.com/xilution/todd-coin-types/commit/285d8b2e7db66970ec3dc35c1b922ddf6c70fe74))
+
 # [2.0.0](https://github.com/xilution/todd-coin-types/compare/v1.3.0...v2.0.0) (2022-04-23)
 
 
