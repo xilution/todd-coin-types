@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/xilution/todd-coin-types/compare/v2.0.4...v2.1.0) (2022-04-23)
+
+
+### Features
+
+* added db types to participant key ([f9dddbb](https://github.com/xilution/todd-coin-types/commit/f9dddbbffe506a21f6c5b4de231a4424b42f420b))
+
 ## [2.0.4](https://github.com/xilution/todd-coin-types/compare/v2.0.3...v2.0.4) (2022-04-23)
 
 
