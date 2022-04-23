@@ -97,7 +97,8 @@ export interface SignedTransaction<T extends TransactionsDetails>
   signature: string;
 }
 
-type BlockTransaction<T extends TransactionsDetails> = SignedTransaction<T>;
+export type BlockTransaction<T extends TransactionsDetails> =
+  SignedTransaction<T>;
 
 export interface Block {
   id?: string;
