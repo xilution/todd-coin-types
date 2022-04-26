@@ -23,7 +23,7 @@ export interface ParticipantKey {
   public: string;
   private?: string;
   effective: DateRange;
-  participant: Participant;
+  participant?: Participant;
 }
 
 export enum OrganizationRole {
@@ -122,7 +122,7 @@ export interface SignedTransaction<T extends TransactionDetails>
 
 export interface BlockTransaction<T extends TransactionDetails>
   extends SignedTransaction<T> {
-  block: Block;
+  block?: Block;
 }
 
 export interface Block {
