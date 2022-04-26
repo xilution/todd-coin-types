@@ -71,7 +71,7 @@ export interface Participant {
   firstName?: string;
   lastName?: string;
   phone?: string;
-  keys: ParticipantKey[];
+  keys?: ParticipantKey[];
   roles?: ParticipantRole[];
   organizations?: Organization[];
 }
