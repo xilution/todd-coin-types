@@ -23,6 +23,7 @@ export interface ParticipantKey {
   public: string;
   private?: string;
   effective: DateRange;
+  participant: Participant;
 }
 
 export enum OrganizationRole {
@@ -30,6 +31,12 @@ export enum OrganizationRole {
   FOUNDATION = "FOUNDATION",
   CHURCH = "CHURCH",
 }
+
+export const OrganizationRoles = [
+  OrganizationRole.CHARITY,
+  OrganizationRole.FOUNDATION,
+  OrganizationRole.CHURCH,
+];
 
 export interface Organization {
   id?: string;
@@ -49,6 +56,12 @@ export enum ParticipantRole {
   ORG_ADMIN = "ORG_ADMIN",
 }
 
+export const ParticipantRoles = [
+  ParticipantRole.VOLUNTEER,
+  ParticipantRole.NODE,
+  ParticipantRole.ORG_ADMIN,
+];
+
 export interface Participant {
   id?: string;
   createdAt?: string;
@@ -67,6 +80,11 @@ export enum TransactionType {
   TIME = "TIME",
   TREASURE = "TREASURE",
 }
+
+export const TransactionTypes = [
+  TransactionType.TIME,
+  TransactionType.TREASURE,
+];
 
 export interface TimeTransactionDetails {
   dateRanges: DateRange[];
@@ -102,8 +120,10 @@ export interface SignedTransaction<T extends TransactionDetails>
   signature?: string;
 }
 
-export type BlockTransaction<T extends TransactionDetails> =
-  SignedTransaction<T>;
+export interface BlockTransaction<T extends TransactionDetails>
+  extends SignedTransaction<T> {
+  block: Block;
+}
 
 export interface Block {
   id?: string;
