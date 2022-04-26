@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/xilution/todd-coin-types/compare/v2.1.0...v2.2.0) (2022-04-26)
+
+
+### Features
+
+* added participant to participant keys ([1b99956](https://github.com/xilution/todd-coin-types/commit/1b99956dc8e7e8b045e502919f88d8805c2b0aab))
+
 # [2.1.0](https://github.com/xilution/todd-coin-types/compare/v2.0.4...v2.1.0) (2022-04-23)
 
 
