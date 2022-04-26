@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/xilution/todd-coin-types/compare/v2.2.0...v2.2.1) (2022-04-26)
+
+
+### Bug Fixes
+
+* made new participant and block properties optional ([44f498c](https://github.com/xilution/todd-coin-types/commit/44f498c0eae6c73bf8cc227db924c221cfcd9370))
+
 # [2.2.0](https://github.com/xilution/todd-coin-types/compare/v2.1.0...v2.2.0) (2022-04-26)
 
 
