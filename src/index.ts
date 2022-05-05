@@ -48,6 +48,7 @@ export interface Organization {
   url?: string;
   participants?: Participant[];
   roles: OrganizationRole[];
+  domains?: string[];
 }
 
 export enum ParticipantRole {
