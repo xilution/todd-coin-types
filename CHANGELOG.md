@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/xilution/todd-coin-types/compare/v2.2.2...v2.3.0) (2022-05-05)
+
+
+### Features
+
+* added domains to organization type ([2070309](https://github.com/xilution/todd-coin-types/commit/2070309187f5de020e703bab270c896306c054ea))
+
 ## [2.2.2](https://github.com/xilution/todd-coin-types/compare/v2.2.1...v2.2.2) (2022-04-26)
 
 
