@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/xilution/todd-coin-types/compare/v2.3.0...v2.4.0) (2022-05-06)
+
+
+### Features
+
+* made password optional for participant ([426ca08](https://github.com/xilution/todd-coin-types/commit/426ca08e342b77bdc74ea484cb869b78323b3ef4))
+
 # [2.3.0](https://github.com/xilution/todd-coin-types/compare/v2.2.2...v2.3.0) (2022-05-05)
 
 
