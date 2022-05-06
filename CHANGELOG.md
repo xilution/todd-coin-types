@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/xilution/todd-coin-types/compare/v2.4.0...v2.5.0) (2022-05-06)
+
+
+### Features
+
+* made organization email optional ([a9e53f4](https://github.com/xilution/todd-coin-types/commit/a9e53f43b15166c6c2f553d86b2a730a2c73cca3))
+
 # [2.4.0](https://github.com/xilution/todd-coin-types/compare/v2.3.0...v2.4.0) (2022-05-06)
 
 
