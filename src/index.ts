@@ -68,7 +68,7 @@ export interface Participant {
   createdAt?: string;
   updatedAt?: string;
   email: string;
-  password: string;
+  password?: string;
   firstName?: string;
   lastName?: string;
   phone?: string;
