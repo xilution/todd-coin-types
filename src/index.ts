@@ -42,7 +42,7 @@ export interface Organization {
   id?: string;
   createdAt?: string;
   updatedAt?: string;
-  email: string;
+  email?: string;
   name: string;
   phone?: string;
   url?: string;
