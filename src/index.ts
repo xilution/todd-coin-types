@@ -29,13 +29,29 @@ export interface ParticipantKey {
 export enum OrganizationRole {
   CHARITY = "CHARITY",
   FOUNDATION = "FOUNDATION",
-  CHURCH = "CHURCH",
+  RELIGIOUS = "RELIGIOUS",
+  NON_PROFIT = "NON_PROFIT",
+  CORPORATION = "CORPORATION",
+  SMALL_BUSINESS = "SMALL_BUSINESS",
+  GOVERNMENT = "GOVERNMENT",
+  POLITICAL = "POLITICAL",
+  MILITARY = "MILITARY",
+  EDUCATION = "EDUCATION",
+  ATHLETICS_DEPARTMENT = "ATHLETICS_DEPARTMENT",
 }
 
 export const OrganizationRoles = [
   OrganizationRole.CHARITY,
   OrganizationRole.FOUNDATION,
-  OrganizationRole.CHURCH,
+  OrganizationRole.RELIGIOUS,
+  OrganizationRole.NON_PROFIT,
+  OrganizationRole.CORPORATION,
+  OrganizationRole.SMALL_BUSINESS,
+  OrganizationRole.GOVERNMENT,
+  OrganizationRole.POLITICAL,
+  OrganizationRole.MILITARY,
+  OrganizationRole.EDUCATION,
+  OrganizationRole.ATHLETICS_DEPARTMENT,
 ];
 
 export interface Organization {
@@ -46,21 +62,45 @@ export interface Organization {
   name: string;
   phone?: string;
   url?: string;
-  participants?: Participant[];
+  vision?: string;
+  mission?: string;
   roles: OrganizationRole[];
-  domains?: string[];
+  domains?: string[]; // this will be used to associate participants with organizations by their email address
+  participants?: Participant[];
+  administrators?: Participant[];
+  authorizedSigners?: Participant[];
 }
 
 export enum ParticipantRole {
   VOLUNTEER = "VOLUNTEER",
+  BENEFACTOR = "BENEFACTOR",
+  CONTRIBUTOR = "CONTRIBUTOR",
+  PATRON = "PATRON",
+  DO_GOODER = "DO_GOODER",
+  HELPER = "HELPER",
+  BLEEDING_HEART = "BLEEDING_HEART",
+  ATHLETICS_BOOSTER = "ATHLETICS_BOOSTER",
+  PHILANTHROPIST = "PHILANTHROPIST",
+  DONOR = "DONOR",
+  ALLY = "ALLY",
   NODE = "NODE",
-  ORG_ADMIN = "ORG_ADMIN",
+  BENEFICIARY = "BENEFICIARY",
 }
 
 export const ParticipantRoles = [
   ParticipantRole.VOLUNTEER,
+  ParticipantRole.BENEFACTOR,
+  ParticipantRole.CONTRIBUTOR,
+  ParticipantRole.PATRON,
+  ParticipantRole.DO_GOODER,
+  ParticipantRole.HELPER,
+  ParticipantRole.BLEEDING_HEART,
+  ParticipantRole.ATHLETICS_BOOSTER,
+  ParticipantRole.PHILANTHROPIST,
+  ParticipantRole.DONOR,
+  ParticipantRole.ALLY,
   ParticipantRole.NODE,
-  ParticipantRole.ORG_ADMIN,
+  ParticipantRole.BENEFICIARY,
 ];
 
 export interface Participant {
@@ -106,7 +146,7 @@ export interface PendingTransaction<T extends TransactionDetails> {
   id?: string;
   createdAt?: string;
   updatedAt?: string;
-  from?: Participant;
+  from: Participant | Organization;
   to: Participant;
   type: T extends TimeTransactionDetails
     ? TransactionType.TIME
