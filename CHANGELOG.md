@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/xilution/todd-coin-types/compare/v3.2.0...v3.2.1) (2022-05-07)
+
+
+### Bug Fixes
+
+* fixed participant key type on signed transaction ([a8edae0](https://github.com/xilution/todd-coin-types/commit/a8edae0ad511fdde1dbdcae42e69d85ff73f9ac5))
+
 # [3.2.0](https://github.com/xilution/todd-coin-types/compare/v3.1.0...v3.2.0) (2022-05-07)
 
 
