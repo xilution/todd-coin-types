@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/xilution/todd-coin-types/compare/v3.0.0...v3.1.0) (2022-05-07)
+
+
+### Features
+
+* made signed transaction signature required ([d4032b6](https://github.com/xilution/todd-coin-types/commit/d4032b6c89c0478f63f324a9b467f553a2e6481e))
+
 # [3.0.0](https://github.com/xilution/todd-coin-types/compare/v2.5.0...v3.0.0) (2022-05-07)
 
 
