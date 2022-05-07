@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/xilution/todd-coin-types/compare/v3.2.1...v3.3.0) (2022-05-07)
+
+
+### Features
+
+* change transaction to to both participant and organization ([b073f73](https://github.com/xilution/todd-coin-types/commit/b073f73d8acd7a9d80d3d062977577a6af6fb132))
+
 ## [3.2.1](https://github.com/xilution/todd-coin-types/compare/v3.2.0...v3.2.1) (2022-05-07)
 
 
