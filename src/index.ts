@@ -158,7 +158,7 @@ export interface PendingTransaction<T extends TransactionDetails> {
 export interface SignedTransaction<T extends TransactionDetails>
   extends PendingTransaction<T> {
   goodPoints: number;
-  signature?: string;
+  signature: string;
 }
 
 export interface BlockTransaction<T extends TransactionDetails>
