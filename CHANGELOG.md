@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/xilution/todd-coin-types/compare/v2.5.0...v3.0.0) (2022-05-07)
+
+
+### Features
+
+* expanded organization and participant types ([8ecd7c4](https://github.com/xilution/todd-coin-types/commit/8ecd7c4c454813ab1eb7995aeefc554c789a45fb))
+
+
+### BREAKING CHANGES
+
+* transaction from can be either a participant or an organization and is required
+
 # [2.5.0](https://github.com/xilution/todd-coin-types/compare/v2.4.0...v2.5.0) (2022-05-06)
 
 
