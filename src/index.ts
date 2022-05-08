@@ -146,8 +146,10 @@ export interface PendingTransaction<T extends TransactionDetails> {
   id?: string;
   createdAt?: string;
   updatedAt?: string;
-  from: Participant | Organization;
-  to: Participant | Organization;
+  fromParticipant?: Participant;
+  fromOrganization?: Organization;
+  toParticipant?: Participant;
+  toOrganization?: Organization;
   type: T extends TimeTransactionDetails
     ? TransactionType.TIME
     : TransactionType.TREASURE;
