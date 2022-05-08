@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/xilution/todd-coin-types/compare/v3.3.0...v4.0.0) (2022-05-08)
+
+
+### Features
+
+* broke out pending transaction from and to ([4d3f441](https://github.com/xilution/todd-coin-types/commit/4d3f4419edab2f8b066436af6daac2975d428bf1))
+
+
+### BREAKING CHANGES
+
+* changed pending transaction signature
+
 # [3.3.0](https://github.com/xilution/todd-coin-types/compare/v3.2.1...v3.3.0) (2022-05-07)
 
 
